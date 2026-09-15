@@ -1,0 +1,21 @@
+/* Hover shadow effect */
+.hover-shadow {
+    transition: box-shadow 0.3s ease;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Adjust shadow values as needed */
+}
+
+/* Hover zoom effect */
+.hover-zoom img {
+    transition: transform 0.3s ease;
+}
+
+.hover-zoom img:hover {
+    transform: scale(1.1); /* Adjust the scale value for zoom effect */
+}
+
+.hover-blue:hover{
+    color:rgb(62, 75, 215);
+}
